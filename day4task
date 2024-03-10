@@ -1,0 +1,29 @@
+*what are variable naming conventions in python?What things are required to declare a varible?
+-->A variable name must start with a letter or the underscore character. A variable name cannot start with a number.Ex:A-z, _.Error will be occurs if it starts with numbers.
+   Variable declaration requires 2 things they are  the type of the variable and its name.
+*what is mutable and immutable in python with example and uses?
+-->Mutable:
+   -The mutable objects can be changed to any value or state without adding a new object.
+   -Mutable objects are  can make changes in-place, without allocating a new object.
+   -slower access comapres to immutable objects
+   -Examples:List, Sets, and Dictionary
+-->Immutable:
+   -The immutable objects can not be changed to its value or state once it is created.
+   -quicker to access comapres to mutable objects
+   -Examples:String,Tuples
+   -mmutable objects are inherently thread-safe.
+*what is list in python?
+-->A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements. 
+*what are the list methods in python?
+-->1.In Python, list objects have several built-in methods that can be used to manipulate and work with lists. Here are some common list methods:
+   2. append(x): Add an item to the end of the list.
+   3. insert(i, x): Insert an item at a given position.
+   4. remove(x): Remove the first occurrence of a value from the list.
+   5. pop([i]): Remove the item at the given position in the list, and return it. If no index is specified, removes and returns the last item in the list.
+   6. clear(): Remove all items from the list.
+   7. index(x[, start[, end]]): Return zero-based index in the list of the first item whose value is equal to x.
+   8. count(x): Return the number of times x appears in the list.
+   9. sort: Sort the items of the list in place.
+  10.reverse(): Reverse the elements of the list in place.
+  11.copy(): Return a shallow copy of the list.
+
